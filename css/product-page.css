@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+
+.product-data-container, .product-description-container {
+    margin: 1rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.product-data-container {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.gumroad-button {
+    width: 12rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.product-image {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.description {
+    color: white;
+}
+
+@media screen and (min-width: 800px) {
+    .product-data-container, .product-description-container {
+        width: 40%;
+    }
+}
