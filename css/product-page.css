@@ -72,6 +72,18 @@ body {
     color: white;
 }
 
+a {
+    color: black;
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: 'Rock Salt', cursive;
+}
+
 @media screen and (min-width: 800px) {
     .product-data-container, .product-description-container {
         width: 40%;
