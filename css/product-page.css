@@ -63,7 +63,7 @@ body {
 }
 
 .product-image {
-    width: 20rem;
+    width: 85%;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -75,7 +75,7 @@ body {
 a {
     color: black;
     background-color: white;
-    height: 4rem;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
