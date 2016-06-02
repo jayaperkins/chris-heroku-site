@@ -1,5 +1,7 @@
 $(function() {
 
+    var $body = $('body');
+
     var $categoryOne = $('.category-one');
 
     var $categoryTwo = $('.category-two');
@@ -10,26 +12,27 @@ $(function() {
 
     $categoryOne.on('click', function() {
 
-        $orchestrationList.slideDown(200);
+        $orchestrationList.slideDown(500);
 
     });
 
     $orchestrationList.on('mouseleave', function() {
 
-        $orchestrationList.slideUp(200);
+        $orchestrationList.slideUp(500);
 
     });
 
 
     $categoryTwo.on('click', function() {
 
-        $choralList.slideDown(200);
+        $choralList.slideDown(500);
 
     });
 
     $choralList.on('mouseleave', function() {
 
-        $choralList.slideUp(200);
+        $choralList.slideUp(500);
 
-    })
+    });
+
 });
