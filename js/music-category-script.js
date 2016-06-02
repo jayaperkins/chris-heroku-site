@@ -10,6 +10,8 @@ $(function() {
 
     var $choralList = $('.choral-list');
 
+    var $item = $('.item');
+
     $categoryOne.on('click', function() {
 
         $orchestrationList.slideDown(500);
@@ -32,6 +34,22 @@ $(function() {
     $choralList.on('mouseleave', function() {
 
         $choralList.slideUp(500);
+
+    });
+
+    $item.on('mouseover', function() {
+
+        $(this).removeClass('item');
+
+        $(this).addClass('item-hover');
+
+    });
+
+    $item.on('mouseleave', function() {
+
+        $(this).removeClass('item-hover');
+
+        $(this).addClass('item');
 
     });
 
