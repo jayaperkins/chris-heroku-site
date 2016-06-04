@@ -2,15 +2,17 @@
     padding: 0;
     margin: 0;
     border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-
-html, body {
-    height: 100%;
+body {
+    background-color: #000;
 }
 
-body {
+main {
+    font-family: 'Lato', sans-serif;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -23,7 +25,8 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
-    background-color: black;
+    height: auto;
+    background-color: #000;
 }
 
 .product-data-container, .product-description-container {
@@ -69,6 +72,8 @@ body {
 }
 
 .description {
+    font-size: 1.25rem;
+    letter-spacing: 0.15rem;
     color: white;
 }
 
@@ -80,12 +85,13 @@ a {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 1.25rem;
-    font-family: 'Rock Salt', cursive;
+    font-size: 1rem;
 }
 
 @media screen and (min-width: 800px) {
+
     .product-data-container, .product-description-container {
         width: 40%;
     }
+
 }

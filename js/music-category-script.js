@@ -25,13 +25,13 @@ $(function() {
     });
 
 
-    $categoryTwo.on('click', function() {
+    $categoryTwo.on('click touchstart', function() {
 
         $choralList.slideDown(500);
 
     });
 
-    $choralList.on('mouseleave', function() {
+    $choralList.on('mouseleave touchend', function() {
 
         $choralList.slideUp(500);
 
