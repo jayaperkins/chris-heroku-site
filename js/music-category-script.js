@@ -1,7 +1,5 @@
 $(function() {
 
-    var $body = $('body');
-
     var $categoryOne = $('.category-one');
 
     var $categoryTwo = $('.category-two');
@@ -18,20 +16,20 @@ $(function() {
 
     });
 
-    $orchestrationList.on('mouseleave', function() {
+    $orchestrationList && $categoryOne.on('mouseleave', function() {
 
         $orchestrationList.slideUp(500);
 
     });
 
 
-    $categoryTwo.on('mouseover', function() {
+    $categoryTwo.on('click', function() {
 
         $choralList.slideDown(500);
 
     });
 
-    $choralList.on('mouseleave', function() {
+    $choralList && $categoryTwo.on('mouseleave', function() {
 
         $choralList.slideUp(500);
 
