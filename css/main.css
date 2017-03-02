@@ -1,7 +1,7 @@
 .description,
 .name {
     color: #fff;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Lato', sans-serif;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -64,7 +64,7 @@ header {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 1.5rem;
     margin-bottom: 2rem
 }
@@ -77,14 +77,15 @@ header {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: .75rem
+    font-size: 1.25rem;
+    font-family: 'Rock Salt', cursive;
 }
 
 .email-button,
 .nav-link {
     text-decoration: none;
-    font-family: 'Rock Salt', cursive;
-    font-size: 1rem
+    font-family: 'Lato', sans-serif;
+    font-size: 1.75rem
 }
 
 .main-nav {
@@ -169,10 +170,10 @@ footer {
         background-image: url(../img/studio-session-desktop.jpg)
     }
     .name {
-        font-size: 2.25rem
+        font-size: 3rem
     }
     .description {
-        font-size: 1rem
+        font-size: 1.5rem
     }
     .link-container {
         width: 40%
@@ -181,7 +182,10 @@ footer {
 
 @media screen and (min-width:900px) {
     .name {
-        font-size: 3rem
+        font-size: 4rem
+    }
+    .description {
+        font-size: 2rem
     }
     .nav-link {
         font-size: 1.25rem
