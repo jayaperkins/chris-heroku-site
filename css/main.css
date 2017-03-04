@@ -1,7 +1,7 @@
 .description,
 .name {
     color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .description,
@@ -79,7 +79,7 @@ header {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size:3rem;
     line-height: 1.5rem;
     margin-bottom: 2rem;
     margin-top: 5rem;
@@ -95,14 +95,13 @@ header {
     align-items: center;
     font-size: 1.25rem;
     margin-bottom: 2.5rem;
-    font-family: 'Rock Salt', cursive;
 }
 
 .email-button,
 .nav-link {
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
     font-size: 1.75rem;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .main-nav {
@@ -183,13 +182,17 @@ footer {
         background-image: url(../img/studio-session-desktop.jpg)
     }
     .name {
-        font-size: 3rem
+        font-size: 4.5rem
     }
     .description {
-        font-size: 1.5rem
+        font-size: 2rem
     }
     .link-container {
         width: 80%
+    }
+
+    .nav-link {
+        font-size: 2.5rem;
     }
 
     .main-nav {
@@ -200,13 +203,15 @@ footer {
 
 @media screen and (min-width:900px) {
     .name {
-        font-size: 4rem
+        font-size: 6.5rem;
+        margin-bottom: 4rem;
     }
     .description {
-        font-size: 2rem
+        font-size: 3rem;
+
     }
     .nav-link {
-        font-size: 1.25rem
+        font-size: 3rem
     }
 
     .link-container {
