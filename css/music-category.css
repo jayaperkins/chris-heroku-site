@@ -101,13 +101,6 @@ body {
     background-color: white;
 }
 
-.item-hover {
-    background-color: #B8B8B8
-}
-
-
-
-
 .item-link {
     display: flex;
     align-items: center;

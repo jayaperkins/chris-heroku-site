@@ -35,20 +35,4 @@ $(function() {
 
     });
 
-    $item.on('mouseover', function() {
-
-        $(this).removeClass('item');
-
-        $(this).addClass('item-hover');
-
-    });
-
-    $item.on('mouseleave', function() {
-
-        $(this).removeClass('item-hover');
-
-        $(this).addClass('item');
-
-    });
-
 });
