@@ -111,6 +111,9 @@ body {
     padding: 0.5rem;
 }
 
+.main-margin-add {
+    margin: 0 0 10rem 0;
+}
 
 @media screen and (min-width: 600px) {
 

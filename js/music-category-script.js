@@ -1,5 +1,7 @@
 $(function() {
 
+    var $categoryContainer = $('.category-container');
+
     var $categoryOne = $('.category-one');
 
     var $categoryTwo = $('.category-two');
@@ -14,11 +16,15 @@ $(function() {
 
         $orchestrationList.slideDown(500);
 
+        $categoryContainer.addClass('main-margin-add');
+
     });
 
     $orchestrationList && $categoryOne.on('mouseleave', function() {
 
         $orchestrationList.slideUp(500);
+
+        $categoryContainer.removeClass('main-margin-add');
 
     });
 
@@ -27,11 +33,15 @@ $(function() {
 
         $choralList.slideDown(500);
 
+        $categoryContainer.addClass('main-margin-add');
+
     });
 
     $choralList && $categoryTwo.on('mouseleave', function() {
 
         $choralList.slideUp(500);
+
+        $categoryContainer.removeClass('main-margin-add');
 
     });
 
