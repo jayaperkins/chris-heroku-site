@@ -32,3 +32,25 @@ h1 {
 p {
     font-size: 1.25rem;
 }
+
+.profile-image {
+    width: 300px;
+    height: auto;
+}
+
+.signature {
+    margin: 2rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+}
+
+.description {
+    margin: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    .profile-image {
+        width: 500px;
+    }
+}
+
