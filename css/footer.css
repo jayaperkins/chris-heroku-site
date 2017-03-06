@@ -1,13 +1,8 @@
 footer {
     display: flex;
-    position: fixed;
-    z-index: 100;
-    bottom: 0;
     flex-direction: column;
     width: 100%;
     height: 9rem;
-    background-color: white;
-
 }
 
 .nav {
@@ -17,6 +12,7 @@ footer {
     height: 9rem;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
 
 }
 
@@ -26,6 +22,7 @@ footer {
     height: 9rem;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
 
 
 
@@ -39,6 +36,7 @@ footer {
     width: 100%;
     height: 3rem;
     border-bottom: 1px solid black;
+    background-color: white;
     color: black;
     font-size: 2rem;
     font-family: 'Great Vibes', cursive;
