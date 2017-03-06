@@ -91,6 +91,7 @@ header {
     align-items: center;
     font-size: 1.25rem;
     line-height: 3rem;
+    margin-bottom: 0.25rem;
 }
 
 .email-button,
@@ -157,13 +158,14 @@ footer {
         background-image: url(../img/studio-session-desktop.jpg)
     }
     .name {
-        font-size: 4.5rem;
+        font-size: 4rem;
 
     }
     .description {
         font-size: 2rem
     }
     .link-container {
+        height: 4rem;
         width: 40%
     }
 
