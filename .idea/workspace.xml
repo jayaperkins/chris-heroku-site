@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="music-category.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="music-category.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/music-category.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
-              <caret line="114" column="24" lean-forward="false" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+              <caret line="114" column="17" lean-forward="false" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="music-category-script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="music-category-script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/music-category-script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -128,8 +128,8 @@
         <option value="$PROJECT_DIR$/bio.html" />
         <option value="$PROJECT_DIR$/css/reviews-bio.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/music-category.css" />
         <option value="$PROJECT_DIR$/js/music-category-script.js" />
+        <option value="$PROJECT_DIR$/css/music-category.css" />
       </list>
     </option>
   </component>
@@ -345,7 +345,7 @@
       <workItem from="1488656929563" duration="9286000" />
       <workItem from="1488768930850" duration="76000" />
       <workItem from="1488769122442" duration="27000" />
-      <workItem from="1488769164041" duration="8324000" />
+      <workItem from="1488769164041" duration="8385000" />
     </task>
     <task id="LOCAL-00001" summary="updated 404 page">
       <created>1463006722512</created>
@@ -393,7 +393,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42751000" />
+    <option name="totallyTimeSpent" value="42812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="6" />
@@ -654,18 +654,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/music-category.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="114" column="24" lean-forward="false" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/music-category-script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/music-category.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="114" column="17" lean-forward="false" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
           <folding />
         </state>
       </provider>
