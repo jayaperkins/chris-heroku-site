@@ -24,7 +24,6 @@ $(function() {
 
         $orchestrationList.slideUp(500);
 
-        $categoryContainer.removeClass('main-margin-add');
 
     });
 
@@ -40,8 +39,7 @@ $(function() {
     $choralList && $categoryTwo.on('mouseleave', function() {
 
         $choralList.slideUp(500);
-
-        $categoryContainer.removeClass('main-margin-add');
+        
 
     });
 
