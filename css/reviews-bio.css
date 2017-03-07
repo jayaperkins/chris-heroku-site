@@ -36,6 +36,7 @@ p {
 .profile-image {
     width: 300px;
     height: auto;
+    margin-top: 10rem;
 }
 
 .signature {
@@ -51,6 +52,7 @@ p {
 @media screen and (min-width: 600px) {
     .profile-image {
         width: 500px;
+        margin-top: 6rem;
     }
 
     .description {
