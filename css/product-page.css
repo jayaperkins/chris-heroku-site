@@ -70,6 +70,10 @@ main {
 }
 
 .product-image {
+    display: none;
+}
+
+.product-image-mobile {
     width: 75%;
     height: auto;
     margin-bottom: 1rem;
@@ -154,8 +158,14 @@ a {
         width: 40%;
     }
 
+    .product-image-mobile {
+        display: none;
+    }
+
     .product-image {
         width: 80%;
+        display: flex;
+
     }
 
     .links {
@@ -179,5 +189,7 @@ a {
     a {
         width: 100%;
     }
+
+
 
 }
