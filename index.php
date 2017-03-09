@@ -1,4 +1,4 @@
-<?php include_once("home.html"); ?>
+<?php
 
 if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== 'on') {
     if(!headers_sent()) {
@@ -11,3 +11,9 @@ if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== 'on') {
         exit();
     }
 }
+
+
+include_once("home.html");
+
+
+?>
