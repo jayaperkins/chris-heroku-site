@@ -1,4 +1,4 @@
 <?php
-header('Location: https://example.com/');
+header('Location: https://enloemusic.com/');
 exit;
 ?>
