@@ -4,5 +4,5 @@ if (isset($_SERVER['HTTPS']))
   if (strtoupper($_SERVER['HTTPS'])=='ON')
     $protocol='https';
 
-header("location: $protocol://".$_SERVER['HTTP_HOST']."/?para=abc");
+header("location: $protocol://".$_SERVER['HTTP_HOST']);
 ?>
