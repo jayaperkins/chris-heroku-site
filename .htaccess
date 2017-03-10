@@ -1,1 +1,9 @@
-Redirect "http://www.enloemusic.com/" "https://www.enloemusic.com/"
+<VirtualHost *:80>
+    ServerName www.enloemusic.com
+    Redirect "/" "https://www.enloemusic.com/"
+</VirtualHost>
+
+<VirtualHost *:443>
+    ServerName www.enloemusic.com
+    # ... SSL configuration goes here
+</VirtualHost>
