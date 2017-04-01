@@ -40,6 +40,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="choral-works.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/choral-works.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="145" column="51" lean-forward="false" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CNAME" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CNAME" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNAME">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -164,11 +174,11 @@
         <option value="$PROJECT_DIR$/templates/bio.html" />
         <option value="$PROJECT_DIR$/videos.html" />
         <option value="$PROJECT_DIR$/css/videos.css" />
-        <option value="$PROJECT_DIR$/choral-works.html" />
         <option value="$PROJECT_DIR$/css/product-page.css" />
         <option value="$PROJECT_DIR$/chamber-works.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/CNAME" />
+        <option value="$PROJECT_DIR$/choral-works.html" />
       </list>
     </option>
   </component>
@@ -199,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,7 +224,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -371,7 +381,8 @@
       <workItem from="1489178022379" duration="1467000" />
       <workItem from="1489187169673" duration="3335000" />
       <workItem from="1489366961088" duration="1325000" />
-      <workItem from="1490130494860" duration="151000" />
+      <workItem from="1490130494860" duration="316000" />
+      <workItem from="1491072062168" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="updated 404 page">
       <created>1463006722512</created>
@@ -419,7 +430,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61978000" />
+    <option name="totallyTimeSpent" value="62415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="6" />
@@ -552,25 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/choral-works.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chamber-works.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="62" lean-forward="false" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -611,6 +607,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chamber-works.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="62" lean-forward="false" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/choral-works.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="145" column="51" lean-forward="false" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
           <folding />
         </state>
       </provider>
