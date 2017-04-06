@@ -70,11 +70,26 @@ nav {
     font-family: 'Great Vibes', cursive;
 }
 
+
+.top {
+    margin-top: 10rem;
+}
+
+
+
 @media screen and (min-width: 475px) {
+
+
+    .top {
+        margin-top: 5rem;
+    }
+
+
 
     nav .nav, .nav-link-container {
         height: 4rem;
     }
+
 
     .nav {
         -webkit-box-orient: horizontal;
@@ -91,4 +106,10 @@ nav {
         border-right: 1px solid black;
     }
 
+}
+
+@media screen and (min-width: 900px) {
+    .top-desc {
+        margin-top: 5rem;
+    }
 }
