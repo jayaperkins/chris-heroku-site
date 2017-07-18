@@ -4,7 +4,6 @@
     <list default="true" id="47ab8fe0-c8a3-417e-8ffc-ab9806be85ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/choral-works.html" afterPath="$PROJECT_DIR$/choral-works.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/product-page.css" afterPath="$PROJECT_DIR$/css/product-page.css" />
     </list>
     <ignored path="chris-hosted-site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +45,8 @@
       <file leaf-file-name="choral-works.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/choral-works.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="67" column="61" lean-forward="false" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+            <state relative-caret-position="337">
+              <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -387,7 +386,7 @@
       <workItem from="1491436392215" duration="635000" />
       <workItem from="1498647761100" duration="1008000" />
       <workItem from="1500343262661" duration="63000" />
-      <workItem from="1500343381276" duration="540000" />
+      <workItem from="1500343381276" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="updated 404 page">
       <created>1463006722512</created>
@@ -435,7 +434,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65298000" />
+    <option name="totallyTimeSpent" value="65487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="0" />
@@ -643,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/choral-works.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="67" column="61" lean-forward="false" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+        <state relative-caret-position="337">
+          <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
           <folding />
         </state>
       </provider>
