@@ -35,7 +35,6 @@ main {
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
     width: 80%;
 }
 
@@ -146,6 +145,11 @@ a {
     width: 90%;
     height: 20rem;
 }
+
+.soundcloud {
+
+}
+
 
 @media screen and (min-width: 1100px) {
     .translation-column-container {
